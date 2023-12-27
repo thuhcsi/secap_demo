@@ -12,7 +12,7 @@ The results of objective and subjective evaluations demonstrate that:
 2) SECap can generate high-quality speech emotion captions that attain performance on par with human annotators in subjective mean opinion score tests. 
 
 <center>
-    <img src="./imgs/model.png" width="80%" height="80%">
+    <img src="./imgs/model_2.png" width="140%" height="140%">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -21,7 +21,7 @@ The results of objective and subjective evaluations demonstrate that:
 </center>
 
 <center>
-    <img src="./imgs/model_1.png" width="80%" height="80%">
+    <img src="./imgs/model_1.png" width="140%" height="140%">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
