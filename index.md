@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- 
+
 # Joint Multi-scale Cross-lingual Speaking Style Transfer with Bidirectional Attention Mechanism for Automatic Dubbing
 
 # Abstract
@@ -21,12 +21,12 @@ A multi-scale speaking style enhanced FastSpeech 2 is then utilized to synthesiz
     color: #999;
     padding: 2px;"> Fig.1: The the proposed joint multi-scale cross-lingual speaking style transfer model. </div>
 </center>
- -->
+
 
 
 <!-- # Subjective Evaluation -->
 
-To demonstrate that our proposed model can significantly transfer the cross-lingual speaking styles both in global and local from source speech to the synthesized speech, some samples are provided for comparison.   **Source Speech** means the source speech in the original language, reconstructed by a vocoder. **FastSpeech 2** means an open-source implementation of FastSpeech 2, with no speaking style transfer. **Duration Tansfer** means duration tansfer model, which predicts the duration of every word in the target speech. **Joint Style Transfer** means the proposed model, which predicts joint multi-scale cross-lingual speaking style in the target speech. In addition, a well-trained HIFI-GAN is used as the vocoder to generate waveform.
+
 
 ## Dataset samples
 
@@ -68,7 +68,7 @@ To demonstrate that our proposed model can significantly transfer the cross-ling
     <td>语气激动，非常愉悦和得意。</td>
   </tr>
   <tr>
-    <td rowspan="5"><audio controls><source src="./wavs/tx_xiao_0200103000507.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+    <td rowspan="5"><audio controls><source src="./wavs/tx_xiao_0100104000109.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
     <td rowspan="5">你们看她那脏兮兮的衣服还穿反了。</td>
     <td rowspan="5">生气</td>
     <td>声嘶力竭的吼，音调高，情绪激动愤怒。</td>
