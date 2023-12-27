@@ -2,26 +2,32 @@
 layout: default
 ---
 
-# Joint Multi-scale Cross-lingual Speaking Style Transfer with Bidirectional Attention Mechanism for Automatic Dubbing
+# SECAP: Speech Emotion Captioning with Large Language Model
 
 # Abstract
 
-Automatic dubbing, which generates a corresponding version of the input speech in another language, could be widely utilized in many real-world scenarios such as video and game localization. In addition to synthesizing the translated scripts, automatic dubbing needs to further transfer the speaking style in the original language to the dubbed speeches
-to give audiences the impression that the characters are speaking in their native tongue.
-However, state-of-the-art automatic dubbing systems only model the transfer on duration and speaking rate, neglecting the other aspects in speaking style such as emotion, intonation and emphasis which are also crucial to fully perform the characters and speech understanding. 
-In this paper, we propose a joint multi-scale cross-lingual speaking style transfer framework to simultaneously model the bidirectional speaking style transfer between languages at both global (i.e. utterance level) and local (i.e. word level) scales.
-The global and local speaking styles in each language are extracted and utilized to predicted the global and local speaking styles in the other language with an encoder-decoder framework for each direction and a shared bidirectional attention mechanism for both directions.
-A multi-scale speaking style enhanced FastSpeech 2 is then utilized to synthesize the predicted the global and local speaking styles to speech for each language. Experiment results demonstrate the effectiveness of our proposed framework, which outperforms a baseline with only duration transfer in both objective and subjective evaluations.
+Speech emotions are crucial in human communication and are extensively used in fields like speech synthesis and natural language understanding. Most prior studies, such as speech emotion recognition, have categorized speech emotions into a fixed set of classes.  Yet, emotions expressed in human speech are often complex, and categorizing them into predefined groups can be insufficient to adequately represent speech emotions. On the contrary, describing speech emotions directly by means of natural language may be a more effective approach. Regrettably, there are not many studies available that have focused on this direction.Therefore, this paper proposes a speech emotion captioning framework named \textit{SECap},aiming at effectively describing speech emotions using natural language.Owing to the impressive capabilities of large language models in language comprehension and text generation, SECap employs LLaMA as the text decoder to allow the production of coherent speech emotion captions. In addition, SECap leverages HuBERT as the audio encoder to extract general speech features and Q-Former as the Bridge-Net to provide LLaMA with emotion-related speech features. To accomplish this, Q-Former utilizes mutual information learning to disentangle emotion-related speech features and speech contents, while implementing contrastive learning to extract more emotion-related speech features. 
+The results of objective and subjective evaluations demonstrate that:
+1) the SECap framework outperforms the HTSAT-BART baseline in all objective evaluations;
+2) SECap can generate high-quality speech emotion captions that attain performance on par with human annotators in subjective mean opinion score tests. 
 
 <center>
-    <img src="./imgs/model.png" width="20%" height="20%">
+    <img src="./imgs/model.png" width="80%" height="80%">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;"> Fig.1: The the proposed joint multi-scale cross-lingual speaking style transfer model. </div>
+    padding: 2px;"> Figure1:Framework of the proposed SECap. </div>
 </center>
 
+<center>
+    <img src="./imgs/model_1.png" width="80%" height="80%">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"> Figure2:The figure presents Q-Former decoupling audio representation and content information using Speech-Transcription Mutual Information Learning with speech features (Q-Embedding) and speech transcription features (T-Embedding). Additionally, it obtains more emotion-related audio representation through Speech-Caption Contrastive Learning with speech features (Q-Embedding) and speech emotion caption features (C-Embedding). </div>
+</center>
 
 
 <!-- # Subjective Evaluation -->
