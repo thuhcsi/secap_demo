@@ -32,6 +32,19 @@ The results of objective and subjective evaluations demonstrate that:
 
 <!-- # Subjective Evaluation -->
 
+## Test samples
+
+| Wav | Human-Labeled Speach Emotion Label | Human-Labeled Speach Emotion Caption | SECap generated speech emotion caption |
+| :---- | :---- | :---- | :---- |
+| <audio controls><source src="./wavs/tx_emotion_00303000260.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 快乐 | 心情快乐舒畅 | 快乐而愉悦，心情舒畅 |
+| <audio controls><source src="./wavs/tx_emulate_02_231_0008_000034.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 愤怒 | 语调高扬，反对的语气，突出内心的不满和愤怒 | 语速较快，声音较高，情绪中带着一丝不满 |
+| <audio controls><source src="./wavs/tx_xiao_0200103000102.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 又惊又喜，语气中充满喜悦和惊讶 | 满怀期待的语气，情绪中透着激动和兴奋 |
+| <audio controls><source src="./wavs/tx_xiao_0200107000936.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 悲伤 | 表明内心充满委屈和不满，流露出极度的悲伤 | 情绪波动较大，语气中充满了委屈和难过 |
+| <audio controls><source src="./wavs/tx_emulate_02_245_0001_000034.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 声音高亢尖利，语气里带着不悦，情绪激动，非常恼怒的情绪 | 语气激昂，内心十分不开心，而且特别的愤怒 |
+| <audio controls><source src="./wavs/tx_emulate_00_109_0004_000071.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 语速极快，情绪中非常不爽，声音很尖锐，后面又流露放缓了态度 | 语气中带有一种不满和不耐烦的情绪，还有一点抱怨 |
+| <audio controls><source src="./wavs/tx_emulate_01_003_0003_000018.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 快乐 | 非常高兴，话语中透露着喜欢和愉悦 | 语气中透露着一种愉悦的心情，还有一点的期待 |
+
+
 
 
 ## Dataset samples
@@ -99,18 +112,5 @@ The results of objective and subjective evaluations demonstrate that:
 
 
 
-
-
-## Test samples
-
-| Wav | Human-Labeled Speach Emotion Label | Human-Labeled Speach Emotion Caption | SECap generated speech emotion caption |
-| :---- | :---- | :---- | :---- |
-| <audio controls><source src="./wavs/tx_emotion_00303000260.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 快乐 | 心情快乐舒畅 | 快乐而愉悦，心情舒畅 |
-| <audio controls><source src="./wavs/tx_emulate_02_231_0008_000034.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 愤怒 | 语调高扬，反对的语气，突出内心的不满和愤怒 | 语速较快，声音较高，情绪中带着一丝不满 |
-| <audio controls><source src="./wavs/tx_xiao_0200103000102.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 又惊又喜，语气中充满喜悦和惊讶 | 满怀期待的语气，情绪中透着激动和兴奋 |
-| <audio controls><source src="./wavs/tx_xiao_0200107000936.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 悲伤 | 表明内心充满委屈和不满，流露出极度的悲伤 | 情绪波动较大，语气中充满了委屈和难过 |
-| <audio controls><source src="./wavs/tx_emulate_02_245_0001_000034.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 声音高亢尖利，语气里带着不悦，情绪激动，非常恼怒的情绪 | 语气激昂，内心十分不开心，而且特别的愤怒 |
-| <audio controls><source src="./wavs/tx_emulate_00_109_0004_000071.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 激动 | 语速极快，情绪中非常不爽，声音很尖锐，后面又流露放缓了态度 | 语气中带有一种不满和不耐烦的情绪，还有一点抱怨 |
-| <audio controls><source src="./wavs/tx_emulate_01_003_0003_000018.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 快乐 | 非常高兴，话语中透露着喜欢和愉悦 | 语气中透露着一种愉悦的心情，还有一点的期待 |
 
 
