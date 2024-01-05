@@ -1,4 +1,4 @@
-remote_theme: thuhcsi/slate
+remote_theme: thuhcsi/secap_slate
 title: SECAP Speech Emotion Captioning with Large Language Model
 description: Accepted by AAAI 2024.
 show_downloads: true
